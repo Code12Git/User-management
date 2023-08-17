@@ -13,6 +13,11 @@ const CreateUser = ({ user, setUser }) => {
   // Function to handle form submission
   const handleSubmit = async () => {
     try {
+      if (!userDetails.name || !userDetails.email || !userDetails.phone) {
+        toast.error("Please enter name, email, and phone");
+        return;
+      }
+
       // Making a POST request to create a new user
       const res = await publicRequest.post("/users", userDetails);
 
