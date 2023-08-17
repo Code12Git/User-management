@@ -53,7 +53,7 @@ const CreateUser = ({ user, setUser }) => {
           {/* Other input fields for email and phone */}
 
           <input
-            placeholder="Phone No."
+            placeholder="Email"
             type="text"
             value={userDetails.email}
             onChange={(e) =>
