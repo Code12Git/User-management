@@ -35,7 +35,7 @@ const UserDetails = () => {
           <motion.div
             drag
             dragConstraints={constraintsRef}
-            className="max-w-md w-full animate-pulse bg-gradient-to-r from-cyan-500 via-amber-400 to-red-400 p-6 shadow-lg rounded-lg"
+            className="max-w-md w-full animate-p bg-gradient-to-r from-cyan-500 via-amber-400 to-red-400 p-6 shadow-lg rounded-lg"
           >
             <div className="mt-4">
               <h1 className="text-3xl font-semibold text-gray-900 mb-2">
